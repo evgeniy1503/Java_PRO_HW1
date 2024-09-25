@@ -1,4 +1,4 @@
-package org.example.annotations;
+package org.example.hw1.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -6,11 +6,12 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Аннотация для выполнения метода перед каждым тестом.
+ * Аннотация, которая передает параметры для выполнения метода.
  *
  * @author Evgeniy_Prokhorov
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface BeforeTest {
+public @interface CsvSource {
+    String value();
 }

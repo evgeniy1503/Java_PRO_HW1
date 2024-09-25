@@ -1,7 +1,7 @@
 package org.example;
 
-import org.example.processor.TestRunner;
-import org.example.service.ServiceTest;
+import org.example.hw1.processor.TestRunner;
+import org.example.hw1.service.ServiceTest;
 
 /**
  * Начало выполнения программы.

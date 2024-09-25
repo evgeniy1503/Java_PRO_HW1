@@ -1,11 +1,11 @@
-package org.example.processor;
+package org.example.hw1.processor;
 
-import org.example.annotations.AfterSuite;
-import org.example.annotations.AfterTest;
-import org.example.annotations.BeforeSuite;
-import org.example.annotations.BeforeTest;
-import org.example.annotations.CsvSource;
-import org.example.annotations.Test;
+import org.example.hw1.annotations.AfterSuite;
+import org.example.hw1.annotations.AfterTest;
+import org.example.hw1.annotations.BeforeSuite;
+import org.example.hw1.annotations.BeforeTest;
+import org.example.hw1.annotations.CsvSource;
+import org.example.hw1.annotations.Test;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
